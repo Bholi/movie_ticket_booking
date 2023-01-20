@@ -1,0 +1,27 @@
+.container table{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+.container table tr{
+    text-align: center;
+}
+.container table tr td{
+    color: #9C27B0;
+}
+.container caption{
+    padding: 20px;
+    color: crimson;
+}
+.container button.delete{
+    background: red;
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+.container button.edit{
+    background: green;
+    border: none;
+    color: white;
+    font-size: 17px;
+}

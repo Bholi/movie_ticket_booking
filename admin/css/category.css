@@ -1,0 +1,14 @@
+.container{
+    margin: 20px 200px 0 300px;
+    background: #eee;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container form input{
+    padding: 10px;
+    width: 300px;
+    background: #fff;
+    border-color: rgb(125, 200, 200);
+}
+

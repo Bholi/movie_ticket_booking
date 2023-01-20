@@ -1,0 +1,36 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: black;
+}
+h2{
+	color: aliceblue;
+	margin-left: 80px;
+	margin-top: 40px;
+}
+.main2{
+	display: flex;
+	margin: 2% 5%;
+	gap: 2%;
+}
+.main2{
+	height: 380px;
+	border: 1px solid black;
+	overflow-x: scroll;
+	padding: 10px;
+	background: white;
+}
+.main::-webkit-scrollbar{
+	width: 0;
+}
+.main2 .item{
+	min-width: 180px;
+	height: 200px;
+	line-height: 110px;
+	display: inline-flex;
+	margin-right: 10px;
+	color: rgb(10, 8, 8);
+	background: #ddd;
+}

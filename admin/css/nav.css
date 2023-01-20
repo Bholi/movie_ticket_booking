@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Comic Sans MS;
+}
+nav{
+    background: #E0F2F1;
+    height: 80px;
+    width: 100%;
+    /* border-radius: 50px; */
+
+}
+label.heading{
+    /* color: crimson; */
+    color: #F44336;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    /* color: crimson; */
+    color: #9C27B0;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a:hover{
+    background: #fff;
+}
+
+/* a.active, a:hover{
+    background: #fff;
+} */
+a.log{
+    border: 1px solid crimson;
+    color: crimson;
+}

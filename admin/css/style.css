@@ -1,0 +1,71 @@
+*{
+    font-family: Comic Sans MS;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form_container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #eee;
+}
+.form_container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0, 0, .1);
+    background: #fff;
+    text-align: center;
+    width: 500px;
+    border-radius: 20px;
+}
+.form_container form h3{
+     font-size: 30px;
+     text-transform: uppercase;
+     margin-bottom: 10px;
+     color: #333;
+}
+.form_container form input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 15px;
+} 
+.form_container form .form_btn{
+    background: #fbd0d9;
+    color:crimson;
+    text-transform:capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form_container form .form_btn:hover{
+    background: crimson;
+    color: #fff;
+}
+.form_container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+.form_container form p a{
+    color: crimson;
+}
+
+.form_container form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}

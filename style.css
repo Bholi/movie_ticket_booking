@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+   font-family: montserrat;
+   background:rgb(192, 188, 188);
+}
+nav{
+    background: #927cf1;
+    height: 80px;
+    width: 100%;
+}
+
+label1.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+ margin-top: 17px;
+display: inline-block;
+line-height: 40px;
+}
+nav ul li a{
+    color:whitesmoke;
+    font-size: 17px;
+    padding: 5px;;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    transition: .5s;
+}
+/* cards start  */
+
+.dropdown li{
+    display: block;
+    
+}
+.dropdown{
+    position: absolute;
+    display: none;
+    z-index: 999;
+    background: #927cf1;
+   
+}
+ul li a:hover{
+    background: #f186c0;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.main2 a{
+    color: black;
+}
+input{
+    margin-right: 40px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 60px;
+    background: #cac7ff;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+::placeholder{
+    color:white;
+}
+
